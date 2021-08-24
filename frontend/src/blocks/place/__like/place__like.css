@@ -1,0 +1,16 @@
+.place__like {
+  background-image: url(../../../images/like-disabled.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 19px;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+
+.place__like:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+

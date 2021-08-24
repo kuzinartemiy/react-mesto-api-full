@@ -1,0 +1,8 @@
+.popup__caption {
+  padding-top: 10px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.25;
+}

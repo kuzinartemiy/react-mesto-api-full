@@ -1,0 +1,30 @@
+.header__profile_opened {
+  margin-bottom: 27px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+
+  width: 100%;
+  
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  order: -1;
+
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+}
+
+@media screen and (min-width: 769px) {
+  .header__profile_opened {
+    padding: 0;
+    margin: 0;
+
+    width: auto;
+
+    flex-direction: row;
+    
+    order: inherit;
+
+    border-bottom: none;
+  }
+}

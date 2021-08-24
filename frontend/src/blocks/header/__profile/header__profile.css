@@ -1,0 +1,10 @@
+.header__profile {
+  display: flex;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header__profile {
+    display: none;
+  }
+}

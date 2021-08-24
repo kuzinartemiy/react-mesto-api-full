@@ -1,0 +1,7 @@
+.header__menu_type_open {
+  width: 24px;
+  height: 21px;
+  
+  background-image: url(../../../../images/menu.svg);
+  background-position: center;
+}

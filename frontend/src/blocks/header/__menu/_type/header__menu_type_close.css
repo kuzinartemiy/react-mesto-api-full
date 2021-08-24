@@ -1,0 +1,9 @@
+.header__menu_type_close {
+  width: 20px;
+  height: 20px;
+
+  background-image: url(../../../../images/add-icon.svg);
+  background-position: center;
+
+  transform: rotate(-45deg);
+}
