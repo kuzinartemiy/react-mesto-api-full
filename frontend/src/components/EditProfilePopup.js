@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from 'react';
-import { CurrentUserContext } from '../contexts/CurrentUserContext';
+import { CurrentUserContext } from '../contexts/CurrentUserContext.js';
 // eslint-disable-next-line no-unused-vars
-import PopupWithForm from './PopupWithForm';
+import PopupWithForm from './PopupWithForm.js';
 
 function EditProfilePopup({
   isOpen,

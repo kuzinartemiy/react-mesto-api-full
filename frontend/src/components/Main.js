@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from 'react';
-import { CurrentUserContext } from '../contexts/CurrentUserContext';
-import Card from './Card';
+import { CurrentUserContext } from '../contexts/CurrentUserContext.js';
+import Card from './Card.js';
 
 function Main({
   onEditAvatar,
