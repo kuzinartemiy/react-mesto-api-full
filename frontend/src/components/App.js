@@ -9,24 +9,24 @@ import {
   useHistory,
 } from 'react-router-dom';
 
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
-import Login from './Login';
-import Register from './Register';
-import ImagePopup from './ImagePopup';
-import EditProfilePopup from './EditProfilePopup';
-import EditAvatarPopup from './EditAvatarPopup';
-import AddPlacePopup from './AddPlacePopup';
-import DeleteCardPopup from './DeleteCardPopup';
-import InfoTooltip from './InfoTooltip';
+import Header from './Header.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
+import Login from './Login.js';
+import Register from './Register.js';
+import ImagePopup from './ImagePopup.js';
+import EditProfilePopup from './EditProfilePopup.js';
+import EditAvatarPopup from './EditAvatarPopup.js';
+import AddPlacePopup from './AddPlacePopup.js';
+import DeleteCardPopup from './DeleteCardPopup.js';
+import InfoTooltip from './InfoTooltip.js';
 
-import api from '../utils/api';
-import auth from '../utils/auth';
+import api from '../utils/api.js';
+import auth from '../utils/auth.js';
 
-import { CurrentUserContext } from '../contexts/CurrentUserContext';
+import { CurrentUserContext } from '../contexts/CurrentUserContext.js';
 
-import ProtectedRoute from './ProtectedRoute';
+import ProtectedRoute from './ProtectedRoute.js';
 
 function App() {
   const history = useHistory();

@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import PopupWithForm from './PopupWithForm';
+import PopupWithForm from './PopupWithForm.js';
 
 function DeleteCardPopup({
   card,
